@@ -2,6 +2,8 @@ source :rubygems
 
 gem 'rails', '3.2.2'
 
+gem 'active_attr'
+gem 'hashrocket-rails'
 gem 'jquery-rails'
 
 group :assets do
