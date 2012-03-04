@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title [TITLE]
+    %title Fun with View Resolvers
     = stylesheet_link_tag    'application'
     = javascript_include_tag 'application'
     = csrf_meta_tags
@@ -10,4 +10,5 @@
       = javascript_include_tag 'html5'
   %body
     = render 'flashes'
-    = yield
+    #content
+      = yield
