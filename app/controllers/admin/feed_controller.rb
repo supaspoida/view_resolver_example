@@ -1,5 +1,4 @@
 require 'objects'
-require 'items_resolver'
 
 module Admin
   class FeedController < ::ApplicationController
