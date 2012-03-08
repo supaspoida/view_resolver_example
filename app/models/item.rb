@@ -5,6 +5,10 @@ class Item
     [Post.new, Video.new, Photo.new]
   end
 
+  def self.subclass_names
+    subclasses.map { |c| c.name.underscore }
+  end
+
   def to_partial_path
     "items/#{self.class.name.underscore}"
   end
