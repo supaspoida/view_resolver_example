@@ -6,7 +6,7 @@ class Item
   end
 
   def to_partial_path
-    "items/item"
+    "items/#{self.class.name.underscore}"
   end
 end
 
